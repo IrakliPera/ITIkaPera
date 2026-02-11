@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <div class="container">
+          <div class="username_input">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              required
+              placeholder="Enter username"
+            />
+          </div>
+          <div class="password_input">
+            <label for="pass">Password</label>
+            <input
+              type="password"
+              id="pass"
+              required
+              placeholder="Enter password"
+            />
+            <span class="notify"
+              >Your password is between 4 and 12 characters</span
+            >
+          </div>
+          <div class="text_input">
+            <label for="text">Input Text Label</label>
+            <input type="text" id="text" required />
+            <span class="error_msg"
+              >Error message informing me of a problem</span
+            >
+          </div>
+        </div>
+        <div class="remember_box">
+          <input type="checkbox" id="remember" />
+          <label for="remember" class="remember">Remember me</label>
+        </div>
+        <div class="on_off">
+          <input type="checkbox" id="turn" />
+          <label for="turn" class="turn">Off</label>
+        </div>
+
+        <div class="radio">
+            <div class="child">
+                <input type="radio" id="one" name="game">
+                <label for="one">Radio selection 1</label>
+            </div>
+            <div class="child">
+                <input type="radio" id="two" name="game">
+                <label for="two">Radio selection 2</label>
+            </div>
+            <div class="child">
+                <input type="radio" id="three" name="game">
+                <label for="three">Radio selection 3</label>
+            </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
